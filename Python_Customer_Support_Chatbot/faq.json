@@ -1,0 +1,61 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["\\bhello\\b", "\\bhi\\b", "\\bhey\\b"],
+            "responses": [
+                "Hello! Welcome to TechSupport. How can I help you?",
+                "Hi there! How may I assist you today?"
+            ]
+        },
+        {
+            "tag": "business_hours",
+            "patterns": ["business hours", "opening hours", "what time.*open"],
+            "responses": [
+                "We are open Monday to Friday, 9 AM to 5 PM."
+            ]
+        },
+        {
+            "tag": "products",
+            "patterns": ["products", "what do you sell", "available items"],
+            "responses": [
+                "We offer laptops, phones, accessories and other tech products."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": ["price", "cost", "how much"],
+            "responses": [
+                "Please tell me which product you want to know the price of."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["contact", "phone number", "email"],
+            "responses": [
+                "You can reach our demo support team at support@techsupport.example."
+            ]
+        },
+        {
+            "tag": "shipping",
+            "patterns": ["delivery", "shipping", "how long.*arrive"],
+            "responses": [
+                "Our demo delivery estimate is 2 to 5 business days."
+            ]
+        },
+        {
+            "tag": "returns",
+            "patterns": ["return", "refund", "exchange"],
+            "responses": [
+                "Our demo store allows returns within 7 days of purchase."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["\\bthanks\\b", "\\bthank you\\b"],
+            "responses": [
+                "You're welcome! Is there anything else I can help you with?"
+            ]
+        }
+    ]
+}
